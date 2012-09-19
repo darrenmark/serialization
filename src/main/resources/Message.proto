@@ -1,0 +1,33 @@
+option java_package = "com.nd.sv.transfer.protobuf";
+option java_outer_classname = "ProtobufMessage";
+option optimize_for = SPEED;
+
+message DataPacket {
+   required Object header = 1;
+   required Object data = 2;
+}
+
+message Object {
+   	repeated Attribute attributes = 1;
+}
+
+message Attribute {
+    required DataType dataType = 1;
+    required string name = 2;
+    optional string string = 3;
+   	optional int32 integer = 4;
+   	optional int64 long = 5;
+   	optional double double = 6;
+   	optional Object object = 7;
+
+    enum DataType {
+        STRING = 1;
+        INTEGER = 2;
+        LONG = 3;
+        DOUBLE = 4;
+        DATE = 5;
+        OBJECT = 6;
+    }
+}
+
+
