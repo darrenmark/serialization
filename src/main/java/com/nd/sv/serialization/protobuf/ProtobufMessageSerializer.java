@@ -32,6 +32,9 @@ public class ProtobufMessageSerializer implements MessageSerializer {
             if(attribute.getDataType() == AttributeType.STRING) {
                 attributeBuilder.setString(attribute.getString());
             }
+            if(attribute.getDataType() == AttributeType.BOOLEAN) {
+                attributeBuilder.setBoolean(attribute.getBoolean());
+            }
             if(attribute.getDataType() == AttributeType.INTEGER) {
                 attributeBuilder.setInteger(attribute.getInteger());
             }
@@ -60,6 +63,9 @@ public class ProtobufMessageSerializer implements MessageSerializer {
             }
             if(AttributeType.valueOf(attribute.getDataType().name()) == AttributeType.STRING) {
                 result.putString(attribute.getName(), attribute.getString());
+            }
+            if(AttributeType.valueOf(attribute.getDataType().name()) == AttributeType.BOOLEAN) {
+                result.putBoolean(attribute.getName(), attribute.getBoolean());
             }
             if(AttributeType.valueOf(attribute.getDataType().name()) == AttributeType.INTEGER) {
                 result.putInteger(attribute.getName(), attribute.getInteger());
