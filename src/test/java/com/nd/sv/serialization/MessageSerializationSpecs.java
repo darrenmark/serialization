@@ -8,6 +8,7 @@ import org.junit.Test;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
@@ -21,7 +22,7 @@ public class MessageSerializationSpecs {
     private XStream xstream = new XStream(new DomDriver());
 
     @Test
-    public void itShouldNotLooseDateInSerialization() throws Exception {
+    public void itShouldNotLooseDataInSerialization() throws Exception {
         Data data = createDummyData();
         data.putObject("innerObject", createDummyData());
         Message originalMessage = new Message(createDummyData(), data);
@@ -40,6 +41,23 @@ public class MessageSerializationSpecs {
         object.putInteger("age", 22);
         object.putDouble("height", 22.2);
         object.putLong("income", 22000L);
+        object.putBoolean("hasCash", false);
         return object;
+    }
+
+
+    @Test
+    public void itShouldSerializeAList() throws Exception {
+         Data data = new Data();
+         data.putList("list", new ArrayList<Attribute>());
+         data.getList("list").add(new Attribute("test", createDummyData()));
+         data.getList("list").add(new Attribute("test", createDummyData()));
+         data.getList("list").add(new Attribute("test", createDummyData()));
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+        Message originalMessage = new Message(createDummyData(), data);
+        messageSerializer.writeTo(originalMessage, outputStream);
+        ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(outputStream.toByteArray());
+        Message outputMessage = messageSerializer.readFrom(byteArrayInputStream);
+        assertThat("Message data is same", xstream.toXML(outputMessage), is(equalTo(xstream.toXML(originalMessage))));
     }
 }

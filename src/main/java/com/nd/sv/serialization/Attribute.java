@@ -1,6 +1,7 @@
 package com.nd.sv.serialization;
 
 import java.util.Date;
+import java.util.List;
 
 /**
  */
@@ -40,11 +41,23 @@ public class Attribute {
         dataType = AttributeType.STRING;
     }
 
+    public Attribute(String name, Boolean data) {
+        this.name = name;
+        this.data = data;
+        dataType = AttributeType.BOOLEAN;
+    }
+
 
     public Attribute(String name, Data data) {
         this.name = name;
         this.data = data;
         dataType = AttributeType.OBJECT;
+    }
+
+    public Attribute(String name, List<Attribute> list) {
+        this.name = name;
+        this.data = list;
+        dataType = AttributeType.LIST;
     }
 
     public String getName() {
@@ -90,6 +103,13 @@ public class Attribute {
         return (String) data;
     }
 
+    public boolean getBoolean() {
+        if(dataType != AttributeType.BOOLEAN) {
+            throw new UnsupportedOperationException("getBoolean is not supported because the data type is not of type boolean");
+        }
+        return (Boolean) data;
+    }
+
     public Data getObject() {
         if(dataType != AttributeType.OBJECT) {
             throw new UnsupportedOperationException("getData is not supported because the data type is not a Object");
@@ -97,4 +117,47 @@ public class Attribute {
         return (Data) data;
     }
 
+    public List<Attribute> getList() {
+        if(dataType != AttributeType.LIST) {
+            throw new UnsupportedOperationException("getData is not supported because the data type is not a List");
+        }
+        return (List<Attribute>) data;
+    }
+
+    public List<Attribute> getObjectList(String key) {
+        return getObject().getList(key);
+    }
+
+    public String getObjectString(String key) {
+        return getObject().getString(key);
+    }
+
+    public Long getObjectLong(String key) {
+        return getObject().getLong(key);
+    }
+
+    public Integer getObjectInteger(String key) {
+        return getObject().getInteger(key);
+    }
+
+    public Date getObjectDate(String key) {
+        return getObject().getDate(key);
+    }
+
+    public Double getObjectDouble(String key) {
+        return getObject().getDouble(key);
+    }
+
+    public boolean getObjectBoolean(String key) {
+        return getObject().getBoolean(key);
+    }
+
+    @Override
+    public String toString() {
+        return "Attribute{" +
+                "name='" + name + '\'' +
+                ", dataType=" + dataType +
+                ", data=" + data +
+                '}';
+    }
 }

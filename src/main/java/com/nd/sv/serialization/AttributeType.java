@@ -8,5 +8,7 @@ public enum AttributeType {
     LONG,
     DOUBLE,
     DATE,
-    OBJECT
+    BOOLEAN,
+    OBJECT,
+    LIST
 }

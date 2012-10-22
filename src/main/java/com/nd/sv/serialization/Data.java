@@ -9,7 +9,7 @@ import static com.google.common.base.Preconditions.checkArgument;
 /**
  */
 public class Data {
-    private List<Attribute> attributes = new ArrayList<>();
+    private List<Attribute> attributes = new ArrayList<Attribute>();
 
     public List<Attribute> getAttributes() {
         return attributes;
@@ -35,8 +35,15 @@ public class Data {
         return findAttribute(name).getString();
     }
 
+    public boolean getBoolean(String name)  {
+        return findAttribute(name).getBoolean();
+    }
     public Data getObject(String name) {
         return findAttribute(name).getObject();
+    }
+
+    public List<Attribute> getList(String name) {
+        return findAttribute(name).getList();
     }
 
     public void putDate(String name, Date date) {
@@ -64,9 +71,19 @@ public class Data {
         attributes.add(new Attribute(name, string));
     }
 
+    public void putBoolean(String name, boolean b) {
+        checkArgument(!attributeNameExists(name), "Attribute already exists with name ->" + name);
+        attributes.add(new Attribute(name, b));
+    }
+
     public void putObject(String name, Data object) {
         checkArgument(!attributeNameExists(name), "Attribute already exists with name ->" + name);
         attributes.add(new Attribute(name, object));
+    }
+
+    public void putList(String name, List<Attribute> list) {
+        checkArgument(!attributeNameExists(name), "Attribute already exists with name ->" + name);
+        attributes.add(new Attribute(name, list));
     }
 
     public void remove(String name) {
@@ -85,12 +102,19 @@ public class Data {
         throw new IllegalArgumentException("No object exists with name ->" + name);
     }
 
-    private boolean attributeNameExists(String name) {
+    public boolean attributeNameExists(String name) {
         for(Attribute attribute: attributes) {
             if(attribute.getName().equals(name)) {
                 return true;
             }
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Data{" +
+                "attributes=" + attributes +
+                '}';
     }
 }

@@ -1,4 +1,4 @@
-option java_package = "com.nd.sv.transfer.protobuf";
+option java_package = "com.nd.sv.serialization.protobuf";
 option java_outer_classname = "ProtobufMessage";
 option optimize_for = SPEED;
 
@@ -11,6 +11,10 @@ message Object {
    	repeated Attribute attributes = 1;
 }
 
+message List {
+    repeated Attribute attributes = 1;
+}
+
 message Attribute {
     required DataType dataType = 1;
     required string name = 2;
@@ -18,7 +22,10 @@ message Attribute {
    	optional int32 integer = 4;
    	optional int64 long = 5;
    	optional double double = 6;
-   	optional Object object = 7;
+   	optional bool boolean = 7;
+   	optional Object object = 8;
+   	optional List list = 9;
+
 
     enum DataType {
         STRING = 1;
@@ -26,7 +33,9 @@ message Attribute {
         LONG = 3;
         DOUBLE = 4;
         DATE = 5;
-        OBJECT = 6;
+        BOOLEAN = 6;
+        OBJECT = 7;
+        LIST = 8;
     }
 }
 

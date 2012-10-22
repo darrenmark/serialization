@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3c8ddfc-cfbf-424e-881e-4853534c1ce0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_12_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_3_4_O.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serialization.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Message.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/MessageSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Message.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/protobuf/ProtobufMessageTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/Message.proto" afterPath="$PROJECT_DIR$/src/main/resources/Message.proto" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java" afterPath="$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java" />
     </list>
     <ignored path="sender.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,27 +70,7 @@
       <file leaf-file-name="Message.proto" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Message.proto">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageSerializationSpecs.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="18" selection-end="31" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtobufMessageSerializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="23" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,34 +79,16 @@
       <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+            <state line="11" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Attribute.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Attribute.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="8" selection-start="8" selection-end="31" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="54" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Message.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Message.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.18478261">
+            <state line="151" column="43" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.94066316">
               <folding />
             </state>
           </provider>
@@ -155,7 +97,7 @@
       <file leaf-file-name="AttributeType.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+            <state line="12" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -164,7 +106,7 @@
       <file leaf-file-name="ProtobufMessage.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="622" column="28" selection-start="24215" selection-end="24215" vertical-scroll-proportion="0.0">
+            <state line="2025" column="64" selection-start="77360" selection-end="77380" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,6 +116,42 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/protobuf/ProtobufMessageTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="34" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageSerializationSpecs.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="103" selection-start="2491" selection-end="2517" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="234" column="12" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageSerializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/MessageSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="9" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtobufMessageSerializer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="22" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,22 +170,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/transfer/MessageSerializer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/MessageTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/protobuf/ProtobufMessageSerializerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/protobuf/DataSerializationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/protobuf/DataSerializationSpecs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/DataSerializationSpecs.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/protobuf/ProtobufMessageTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Message.proto" />
         <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/transfer/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/transfer/AttributeType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/transfer/Message.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/transfer/MessageSerializationSpecs.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/transfer/protobuf/ProtobufMessageSerializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Message.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java" />
       </list>
     </option>
   </component>
@@ -278,6 +256,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,6 +327,10 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -361,16 +353,87 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protobuf" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serialization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -397,7 +460,7 @@
       <recent name="com.nd.sv.transfer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MessageSerializationSpecs.itShouldNotLooseDateInSerialization">
+  <component name="RunManager" selected="JUnit.MessageSerializationSpecs.itShouldSerializeAList">
     <configuration default="false" name="MessageTest.test" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -461,12 +524,40 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="sender" />
+      <module name="serialization" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="com.nd.sv.serialization" />
+      <option name="MAIN_CLASS_NAME" value="com.nd.sv.serialization.MessageSerializationSpecs" />
+      <option name="METHOD_NAME" value="itShouldNotLooseDateInSerialization" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MessageSerializationSpecs.itShouldSerializeAList" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.nd.sv.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="serialization" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.nd.sv.serialization" />
       <option name="MAIN_CLASS_NAME" value="com.nd.sv.serialization.MessageSerializationSpecs" />
-      <option name="METHOD_NAME" value="itShouldNotLooseDateInSerialization" />
+      <option name="METHOD_NAME" value="itShouldSerializeAList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -588,10 +679,11 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.MessageTest.test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ProtobufMessageTest.testSerializedDeserialize" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.MessageSerializationSpecs.itShouldNotLooseDateInSerialization" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MessageSerializationSpecs.itShouldSerializeAList" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -623,6 +715,15 @@
       <created>1347923581901</created>
       <updated>1347923581901</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial setup">
+      <created>1348078817480</created>
+      <updated>1348078817480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial setup">
+      <created>1349981274624</created>
+      <updated>1349981274624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,16 +739,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32921347" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.6707865" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20343137" sideWeight="0.7089888" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24938725" sideWeight="0.6707865" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.252809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27512255" sideWeight="0.7089888" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29101124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32884616" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280899" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -727,46 +828,39 @@
         <state line="45" column="22" selection-start="878" selection-end="878" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/MessageSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/io/ByteArrayOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="11" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="60" column="11" selection-start="1152" selection-end="1152" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="247" selection-end="341" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Message.proto">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="23" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="8" selection-start="8" selection-end="31" vertical-scroll-proportion="0.0" />
+        <state line="11" column="23" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/AttributeType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" />
+        <state line="12" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="28" selection-start="24215" selection-end="24215" vertical-scroll-proportion="0.0" />
+        <state line="2025" column="64" selection-start="77360" selection-end="77380" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/protobuf/ProtobufMessageTest.java">
@@ -774,21 +868,31 @@
         <state line="19" column="34" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="18" selection-end="31" vertical-scroll-proportion="0.0" />
+        <state line="234" column="12" selection-start="9674" selection-end="9674" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/MessageSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
+        <state line="9" column="9" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/protobuf/ProtobufMessageSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="22" selection-start="3700" selection-end="3700" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/nd/sv/serialization/MessageSerializationSpecs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="103" selection-start="2491" selection-end="2517" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Message.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nd/sv/serialization/Attribute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.18478261">
+        <state line="151" column="43" selection-start="4189" selection-end="4189" vertical-scroll-proportion="0.94066316">
           <folding />
         </state>
       </provider>
